@@ -8,7 +8,7 @@ $$ y^2 = x^3 + 61370*x^2 + x $$
 
  Its twist has $2^2 \times 28948022309329048855892746252171976963230320855948034936185801359597441823917$ affine points, again with the large integer a prime number.
 
- Curve189 has the same security properties as Curve25519. Note that with A = 61370 we have (A-2)/4 = 15342 is small. As described in [1], this provides speed benefits in implementations.
+ Curve189 has the same security properties as Curve25519 [1]. Note that with A = 61370 we have (A-2)/4 = 15342 is small. As described in [1], this provides speed benefits in implementations.
 
  Note that there is no reason to use Curve256189 over Curve25519, generating this curve was done pure for educational purposes.
 
